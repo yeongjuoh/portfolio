@@ -1316,3 +1316,35 @@ padding-top:30px;}
     clear: both;
   }
 }
+
+@media screen and (max-width:768px) {
+  #fh5co-header .display-tc .profile-thumb,
+  .fh5co-cover .display-tc .profile-thumb {
+    background-size: cover !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width:376px) {
+  .timeline-body br{
+    display: none;
+  }
+}
+.timeline-title>br{
+  display: none;
+}
+@media screen and (max-width:400px) {
+  .timeline-title>br{
+    display: block;
+  }
+}
